@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "name": "Requirements and decisions",
+      "path": "."
+    },
+    {
+      "name": "Freedom Account team context",
+      "path": "../freedom-mortgage-account-context-demo"
+    },
+    {
+      "name": "Notifications team context",
+      "path": "../freedom-mortgage-notifications-context-demo"
+    }
+  ]
+}

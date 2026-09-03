@@ -1,0 +1,28 @@
+---
+description: Quality, governance, and traceability rules for requirements documents
+alwaysApply: true
+---
+
+# Requirements document rules
+
+- Treat this workspace as a synthetic demo. Never add real customer, borrower,
+  employee, credential, underwriting, or production information.
+- Use provided files as evidence. Do not invent policy, approvals, metrics,
+  estimates, dates, system behavior, or legal/compliance conclusions.
+- Label every material statement as a sourced fact, approved decision,
+  assumption, or open question when its status is not otherwise obvious.
+- Use stable identifiers: `BR-###` for business requirements, `PR-<TEAM>-###`
+  for product requirements, and `FR-###` for functional requirements.
+- Preserve parent identifiers as documents become more detailed.
+- If a team constraint changes approved business scope, do not silently update
+  documents. Explain the impact, propose the smallest change, and wait for a
+  human decision.
+- Keep unresolved questions visible. A plausible answer is not an approval.
+- Before changing an approved baseline, list affected documents and requirements.
+- Keep language understandable to product managers and business analysts.
+- A BRD states business outcomes and scope; a PRD states a team's product
+  behavior and rationale; an FRD decomposes approved product requirements into
+  functional behavior, epics, stories, acceptance criteria, and dependencies.
+- Do not create delivery estimates. Prepare structured inputs for Freedom
+  Mortgage's separate LOE process.
+- Stop at each requested review checkpoint and wait for human approval.
