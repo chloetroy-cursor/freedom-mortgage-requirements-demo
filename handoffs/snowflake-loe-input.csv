@@ -1,0 +1,8 @@
+initiative_id,epic_id,story_id,owning_team,functional_requirement_ids,dependency,unresolved_input,readiness,effort_estimate,cost_estimate
+BRP-247,EPIC-RSA-1,RSA-101,Freedom Account,FR-001,Preference capability,None,Ready for team review,,
+BRP-247,EPIC-RSA-1,RSA-102,Freedom Account,FR-002|FR-003,Preference capability,Enrollment expiration,Needs decision,,
+BRP-247,EPIC-RSA-2,RSA-201,Cross-team,FR-004,Offer service|Freedom Account|Notifications,Technical input validation,Needs validation,,
+BRP-247,EPIC-RSA-2,RSA-202,Notifications,FR-005,Delivery history,DEC-002 frequency and suppression,Blocked,,
+BRP-247,EPIC-RSA-2,RSA-203,Notifications,FR-006|FR-007,Approved template,Final customer language,Needs approval,,
+BRP-247,EPIC-RSA-2,RSA-204,Freedom Account,FR-008,Authenticated offer destination,Unavailable-state behavior,Needs validation,,
+BRP-247,EPIC-RSA-3,RSA-301,Cross-team,FR-009|FR-010,Analytics and delivery reporting,DEC-003 success thresholds,Needs decision,,
